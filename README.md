@@ -1,6 +1,3 @@
-
-# termproject
-
 # AI-Based CBT Companion App
 "What troubles us is not situations themselves, but the way we think about them."
 
@@ -49,29 +46,29 @@ Technology   ,          Role
 
 Technology      ,               Role 
 
--Firebase Realtime Database   :  Cloud data sync 
--Firebase Auth                :  Session management + UID-based data recovery 
--SharedPreferences + Gson     :  Local persistence 
--DataStore                     : Local recovery pipeline on app restart 
+* Firebase Realtime Database   :  Cloud data sync 
+* Firebase Auth                :  Session management + UID-based data recovery 
+* SharedPreferences + Gson     :  Local persistence 
+* DataStore                     : Local recovery pipeline on app restart 
 
 ### APIs
 
 API                           ,  Role 
 
--Gemini API                     : Socratic question generation 
--Google Maps SDK               : Activity map + GPS tracking 
--OpenWeatherMap API             : Weather-aware activity suggestions 
--Google Sign-In (OAuth 2.0)     : Authentication 
+* Gemini API                     : Socratic question generation 
+* Google Maps SDK               : Activity map + GPS tracking 
+* OpenWeatherMap API             : Weather-aware activity suggestions 
+* Google Sign-In (OAuth 2.0)     : Authentication 
 
 ### Machine Learning
 
 Component       ,           Detail 
 
--Base model         :       `xlm-roberta-base` 
--Task                 :      5-node multi-label cognitive distortion classification 
--Dataset               :     2,530 samples (Kaggle patient utterances; 50% English + 50% Korean translation) 
--Training               :    Epoch 4, Batch 16, LR 2e-5, Max Seq 128 
--Deployment              :   Mobile-optimized on-device inference; outputs 1–100% score per distortion type 
+* Base model         :       `xlm-roberta-base` 
+* Task                 :      5-node multi-label cognitive distortion classification 
+* Dataset               :     2,530 samples (Kaggle patient utterances; 50% English + 50% Korean translation) 
+* Training               :    Epoch 4, Batch 16, LR 2e-5, Max Seq 128 
+* Deployment              :   Mobile-optimized on-device inference; outputs 1–100% score per distortion type 
 
 
 ## Stability & Engineering Highlights
