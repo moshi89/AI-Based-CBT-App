@@ -35,43 +35,43 @@ Pillar                   Implementation
 
 ### Android / Frontend
 
- Technology             Role 
+Technology   ,          Role 
 
- Kotlin                 Primary language 
- Jetpack Compose        Full UI/UX implementation 
- MVVM architecture      Dependency separation, testability 
- Kotlin Coroutines      Async processing (`Dispatchers.IO` for all I/O) 
- Jetpack                Navigation and list UI 
- Download Manager       AI model file management 
-`rememberSaveable`      UI state preservation across configuration changes 
+-Kotlin              :   Primary language 
+-Jetpack Compose      :  Full UI/UX implementation 
+-MVVM architecture     : Dependency separation, testability 
+-Kotlin Coroutines      :Async processing (`Dispatchers.IO` for all I/O) 
+-Jetpack    :            Navigation and list UI 
+-Download Manager   :    AI model file management 
+-rememberSaveable:     UI state preservation across configuration changes 
 
 ### Backend / Data
 
-Technology                     Role 
+Technology      ,               Role 
 
-Firebase Realtime Database     Cloud data sync 
-Firebase Auth                  Session management + UID-based data recovery 
-SharedPreferences + Gson       Local persistence 
-DataStore                      Local recovery pipeline on app restart 
+-Firebase Realtime Database   :  Cloud data sync 
+-Firebase Auth                :  Session management + UID-based data recovery 
+-SharedPreferences + Gson     :  Local persistence 
+-DataStore                     : Local recovery pipeline on app restart 
 
 ### APIs
 
-API                             Role 
+API                           ,  Role 
 
-Gemini API                      Socratic question generation 
-Google Maps SDK                 Activity map + GPS tracking 
-OpenWeatherMap API              Weather-aware activity suggestions 
-Google Sign-In (OAuth 2.0)      Authentication 
+-Gemini API                     : Socratic question generation 
+-Google Maps SDK               : Activity map + GPS tracking 
+-OpenWeatherMap API             : Weather-aware activity suggestions 
+-Google Sign-In (OAuth 2.0)     : Authentication 
 
 ### Machine Learning
 
-Component                  Detail 
+Component       ,           Detail 
 
-Base model                `xlm-roberta-base` 
-Task                       5-node multi-label cognitive distortion classification 
-Dataset                    2,530 samples (Kaggle patient utterances; 50% English + 50% Korean translation) 
-Training                   Epoch 4, Batch 16, LR 2e-5, Max Seq 128 
-Deployment                 Mobile-optimized on-device inference; outputs 1–100% score per distortion type 
+-Base model         :       `xlm-roberta-base` 
+-Task                 :      5-node multi-label cognitive distortion classification 
+-Dataset               :     2,530 samples (Kaggle patient utterances; 50% English + 50% Korean translation) 
+-Training               :    Epoch 4, Batch 16, LR 2e-5, Max Seq 128 
+-Deployment              :   Mobile-optimized on-device inference; outputs 1–100% score per distortion type 
 
 
 ## Stability & Engineering Highlights
