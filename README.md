@@ -15,6 +15,9 @@ Pillar                   Implementation
 **Behavioral**           GPS-based activity recommendation via behavioral activation                            algorithm
 **Self-acceptance**      Warm AI-driven feedback loop for reflective journaling 
 
+## Project Demo
+https://drive.google.com/file/d/1GGbE4aCxzA_Exm_odgWtZXrGz6paWxOI/view?usp=sharing
+
 ## Features
 
 - **On-device cognitive distortion analysis** — fine-tuned `xlm-roberta-base` model runs entirely on the device via a mobile-optimized inference engine; no server required
