@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">termproject</string>
+    <string name="back">뒤로가기</string>
+    <string name="settings">설정</string>
+    <string name="lang_ko">한국어</string>
+    <string name="lang_en">English</string>
+    <string name="settings_lang">언어 설정</string>
+    <string name="edit_profile">프로필 정보 수정하기</string>
+    <string name="close">닫기</string>
+
+    <!-- EntryScreen -->
+    <string name="entry_title">오늘 나를 괴롭히는 부정적인 생각은?</string>
+    <string name="entry_subtitle">머릿속을 맴도는 비관적이고 불안한 생각을 있는 그대로 적어보세요. 분석을 통해 마음의 왜곡을 찾아드립니다.</string>
+    <string name="entry_placeholder">예: 오늘 면접을 망쳤어. 난 평생 취업도 못 하고 비참하게 살 거야...</string>
+    <string name="entry_btn">AI 마음 안식처 분석 시작</string>
+    <string name="entry_template_title">생각 적기가 막힐 때 템플릿 사용하기</string>
+    <string name="entry_template_1">아무리 노력해도 남들보다 항상 뒤처지는 것 같아...</string>
+    <string name="entry_template_2">친구 답장이 늦는 걸 보니 내가 무슨 실수를 한 게 분명해...</string>
+    <string name="entry_template_3">내 외모는 너무 볼품없어서 사람들이 다 속으로 흉볼 거야...</string>
+    <string name="entry_hero_title">지금 마음의 무거운 부담을\n흘려 보내 보세요</string>
+    <string name="entry_hero_subtitle">내면의 불안, 오해, 자책을 검열 없이 마음 편히 기록하는 고요한 안식처입니다.</string>
+    <string name="entry_input_placeholder">예시: 친구가 연락을 왜 안 하지.. 내가 보냈던 말에 크게 오해하거나 실망한 게 확실할 거야.. 하루 종일 일이 안 손에 잡혀.</string>
+    <string name="entry_template_hint">💡 혹시 아래와 같은 생각 속에 계신가요?</string>
+    <string name="entry_tpl_rel_title">관계 회피와 고립</string>
+    <string name="entry_tpl_rel_body">답장이 왜 3시간째 안 올까? 날 무시하거나 관계를 끊고 싶어서 저러는 모양이다.</string>
+    <string name="entry_tpl_ach_title">한계 규정과 성취불안</string>
+    <string name="entry_tpl_ach_body">이번 시험 면접은 내 실수 때문에 절대 안 돼. 난 앞으로도 매번 낙방할 사회 부적격자야.</string>
+    <string name="entry_tpl_pub_title">대인 발표 긴장</string>
+    <string name="entry_tpl_pub_body">공식 자리에서 말을 절어 창피당했어. 그곳에 있던 전원이 날 엄청 한심하게 낙인 찍고 비웃겠지.</string>
+
+    <!-- DistortionReviewScreen -->
+    <string name="dr_step_label">STEP 1 · 인지 진단</string>
+    <string name="dr_title">오류 왜곡 스캔 리포트</string>
+    <string name="dr_subtitle_a">AI가 당신의 생각 속 숨겨진 인지 왜곡 패턴을 정밀 탐지했습니다.</string>
+    <string name="dr_subtitle_b">왜곡된 생각의 뿌리를 들여다보고, 더 건강한 관점으로 나아가는 첫걸음을 내딛어 보세요.</string>
+    <string name="dr_original_thought">작성 시의 오염된 생각 원형</string>
+    <string name="dr_detected_filters">🔍 감지된 인지적 여과 필터링</string>
+    <string name="dr_choose_path">해결하기 위한 다음 경로 선택</string>
+
+    <!-- MapNavigationScreen -->
+    <string name="map_step_label">STEP 4 · 실시간 경로 안내</string>
+    <string name="map_subtitle_a">목적지까지 걸어가며 자연과 교감하고 마음을 환기시켜 보세요.</string>
+    <string name="map_subtitle_b">산책 중 주변을 천천히 둘러보며 현재에 집중해보세요.</string>
+    <string name="map_permission_title">위치 정보 권한 필요</string>
+    <string name="map_permission_body">산책 경로를 안내하기 위해 위치 접근이 필요합니다.\n설정에서 위치 권한을 허용해 주세요.</string>
+    <string name="map_permission_btn">위치 권한 허용하기</string>
+    <string name="map_gps_searching">GPS 신호를 탐색하고 있습니다...</string>
+    <string name="map_gps_hint">실외 또는 창가 근처로 이동하면 더 빠르게 인식됩니다.</string>
+    <string name="map_destination_prefix">목적지: </string>
+    <string name="map_guidelines_title">📜 마음 활성화 보행 중 주안점</string>
+    <string name="map_start_btn">목적지로 걸음 출발하기</string>
+    <string name="map_start_cd">걷기 카운터 시작</string>
+
+    <!-- ReflectionCompleteScreen -->
+    <string name="rc_step_label">STEP 6 · 완료 및 소감</string>
+    <string name="rc_title">행동 활성화의 달콤한 열매</string>
+    <string name="rc_subtitle_a">목적지까지의 걸음을 무사히 완수했습니다.</string>
+    <string name="rc_subtitle_b">이 작은 행동이 마음의 회복을 앞당겨 줄 것입니다.</string>
+    <string name="rc_mission">목적 미션</string>
+    <string name="rc_walk_time">보행 타임</string>
+    <string name="rc_distance">누적 거리</string>
+    <string name="rc_mood_index">🌱 현재 나의 정화된 기분 지표</string>
+    <string name="rc_mood_question">산책 후 현재 기분이 어떠신가요?</string>
+    <string name="rc_mood_placeholder">지금 이 순간, 내면의 소리를 자유롭게 기록해보세요...</string>
+    <string name="rc_save_btn">행동 성찰 일지 저장 후 홈으로</string>
+    <string name="rc_mood_refreshed">상쾌해짐</string>
+    <string name="rc_mood_calm">차분해짐</string>
+    <string name="rc_mood_relieved">가벼워짐</string>
+    <string name="rc_mood_neutral">보통임</string>
+    <string name="rc_walk_note_title">✍️ 마음에 일러줄 보행 성찰 노트</string>
+    <string name="rc_walk_note_placeholder">걸으면서 어떤 소리, 냄새, 바람을 새로이 감지했나요? 나쁜 생각에서 비켜 서 보니 기분이 어떤지 솔직히 적어보세요.</string>
+    <string name="rc_save_complete_btn">성찰 완료, 소중히 매듭짓기 (저장)</string>
+
+    <!-- JournalDetailScreen -->
+    <string name="jd_title">과거 마음 일지 다시 읽기</string>
+    <string name="jd_original_thought">그 당시 가슴앓이했던 비관적 상태</string>
+    <string name="jd_cognitive_filter">내재 수준에서 격발된 오염 인지 필터</string>
+    <string name="jd_behavioral_complete">🐾 수행 완료한 행동 처방</string>
+    <string name="jd_mission">완전 미션</string>
+    <string name="jd_duration">소요 시간</string>
+    <string name="jd_walk_distance">보행 거리</string>
+    <string name="jd_mood_after">정질 기분</string>
+    <string name="jd_walk_note">내가 남겨두었던 보행 성찰 노트</string>
+    <string name="jd_positive_aspect">✨ 찾은 나의 긍정적 측면</string>
+    <string name="jd_ai_perspective">AI가 발견했던 따뜻한 시선</string>
+    <string name="jd_reflection_content">내가 남겨두었던 성찰 내용</string>
+    <string name="jd_socratic_question">💡 성찰 복원에 마주친 반문</string>
+    <string name="jd_rational_wisdom">내가 합의했던 합리적 지혜</string>
+    <string name="jd_home_btn">메인 홈으로 안착</string>
+
+    <!-- ProfileScreen -->
+    <string name="profile_behavioral_compliments_suffix">개</string>
+    <string name="profile_streak">DAY STREAK</string>
+    <string name="profile_sessions">SESSIONS</string>
+    <string name="profile_recent_activity">Recent Activity</string>
+    <string name="profile_view_all">View All</string>
+    <string name="profile_show_less">Show Less</string>
+    <string name="profile_no_journals">기록된 마음 일지가 아직 없습니다.</string>
+    <string name="profile_cognitive_title">Cognitive Reframing</string>
+    <string name="profile_cognitive_sub">Thought: </string>
+    <string name="profile_behavioral_sub">Behavioral Activation • </string>
+    <string name="profile_exposure_title">나의 빛나는 모습 찾기</string>
+    <string name="profile_exposure_sub">사진 성찰 완료 • 칭찬 </string>
+    <string name="profile_email">이메일 계정</string>
+    <string name="profile_encryption">온디바이스 세이프 가드</string>
+    <string name="profile_encryption_active">종단 암호화 활성</string>
+    <string name="profile_edit_btn">프로필 정보 수정하기</string>
+    <string name="profile_logout_btn">생각 안식처 안전 로그아웃 (Sign Out)</string>
+
+    <!-- Map activity default names/purposes/instructions -->
+    <string name="act_forest_name">좋은 산림 공원 산속길</string>
+    <string name="act_forest_purpose">나무 사이 바람과 숲향기를 느끼며 머리를 식혀주세요</string>
+    <string name="act_forest_duration">약 15분</string>
+    <string name="act_forest_instruction">자연 속에서 녹색 잎사귀와 당신의 발에 닿는 흙의 감촉에만 주의를 집중해 보세요.</string>
+    <string name="act_sunlight_name">하양 광합성 산책로</string>
+    <string name="act_sunlight_purpose">세로토닌을 기르고 감정적 무기력과 피로를 녹여주세요</string>
+    <string name="act_sunlight_duration">약 20분</string>
+    <string name="act_sunlight_instruction">햇살의 따뜻한 온도를 피부로 느끼며, 어깨를 포시하게 펼고 일정한 페이스로 걸어보세요.</string>
+    <string name="act_stream_name">잔잔한 옥빛 개울가 하천길</string>
+    <string name="act_stream_purpose">흐르는 물소리의 잔잔한 백색소음으로 도사리 남는 우울을 씻어내 보세요</string>
+    <string name="act_stream_duration">약 25분</string>
+    <string name="act_stream_instruction">계곡의 자연스러운 소리와 리듬에 맞춰 호흡과 호식을 느슨하게 맞춰보세요.</string>
+
+    <!-- ExposureScreen -->
+    <string name="exposure_title">나의 빛나는 순간 찾기</string>
+    <string name="exposure_subtitle">외모에 대한 부정적인 생각이 들 때, 있는 그대로의 내 모습을 사랑해주는 연습을 합니다.</string>
+    <string name="exposure_upload_title">오늘의 내 모습을 담아보세요</string>
+    <string name="exposure_change_photo">사진 변경하기</string>
+    <string name="exposure_ai_title">AI의 따뜻한 시선</string>
+    <string name="exposure_ai_desc">AI가 당신의 사진에서 긍정적인 빛을 발견했어요.</string>
+    <string name="exposure_compliment_1">반짝이는 눈망울</string>
+    <string name="exposure_compliment_2">따뜻한 미소</string>
+    <string name="exposure_compliment_3">건강한 에너지</string>
+    <string name="exposure_compliment_4">부드러운 얼굴 선</string>
+    <string name="exposure_compliment_5">긍정적인 분위기</string>
+    <string name="exposure_input_label">오늘 나의 외모에서 마음에 드는 한 가지는?</string>
+    <string name="exposure_input_placeholder">예: 웃을 때 생기는 눈가 주름이 정겨워요...</string>
+    <string name="exposure_save_btn">저장하고 마음 돌보기</string>
+    <string name="exposure_footer">이 순간의 당신을 기억하세요. 외면의 아름다움은 내면의 평온함에서 시작됩니다.</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle">평화롭고 고요한 나만의 생각 안식처</string>
+
+    <!-- LoginScreen -->
+    <string name="login_subtitle">안식과 깊은 성찰이 기다리는 나만의 방.\n다시 생각을 흘려보내고 회복해보세요.</string>
+    <string name="email_address">이메일 주소</string>
+    <string name="password">비밀번호</string>
+    <string name="forgot_password">비밀번호를 분실하셨나요?</string>
+    <string name="login_btn">안식처 입장하기 (Login)</string>
+    <string name="social_login">또는 소셜 로그인</string>
+    <string name="no_account">아직 계정이 없으신가요?</string>
+    <string name="signup_link">회원가입하기</string>
+
+    <!-- SignUpScreen -->
+    <string name="back_to_login">로그인 화면으로</string>
+    <string name="signup_subtitle">마음의 걱정을 내려놓고 안전하게 성장하는 고유 정적 공간.\n나를 찾는 여정을 지금 시작하세요.</string>
+    <string name="password_placeholder_signup">비밀번호 (8자 이상)</string>
+    <string name="signup_security_note">작성하신 생각과 일지는 군사 등급 보안으로 엄격하게 암호화되어 개인 디바이스 안에서만 안전하게 통제 및 보호됩니다.</string>
+    <string name="signup_btn">회원가입 완료하기 (Sign Up)</string>
+
+    <!-- ProfileSetupScreen -->
+    <string name="profile_setup_title">마음챙김 생각 안식처에서 활동할\n이름(닉네임)과 직무 정보를 편히 작성해 보세요.</string>
+    <string name="profile_avatar_label">프로필 사진 등록</string>
+    <string name="profile_nickname_label">사용할 이름 (Nickname)</string>
+    <string name="profile_job_label">역할/직업 (Job title 또는 Hobby)</string>
+    <string name="profile_save_btn">저장 및 시작하기 (Get Started)</string>
+    <string name="profile_building">프로필 안식처 빌드 중...</string>
+    <string name="profile_build_success">소중한 공간의 준비가 끝났습니다.\n지금 안식처 메인 대시보드로 이동합니다.</string>
+
+    <!-- Dialogs in MainActivity -->
+    <string name="guide_title">CBT 인지-행동 치료 가이드</string>
+    <string name="guide_intro">본 CBT Sanctuary는 마음의 불편함을 해부하고 정비하는 정교한 시스템입니다.</string>
+    <string name="guide_body">"• 인지적 분기 (Path A): 소크라테스 반론을 통해 왜곡된 생각을 이성적으로 낱낱이 파헤치고 지혜로운 평안 대안을 도출해 저장합니다.\n\n• 행동적 분기 (Path B): 복잡한 생각의 감옥에서 완전히 발을 빼 자연 산책 미션을 수행하며 직접 기분을 활성화하는 행동 활기 요법을 구현합니다."</string>
+    <string name="guide_close">안내 닫기</string>
+
+    <!-- Toast/Snackbar Messages -->
+    <string name="welcome_back">안식처에 오신 것을 환영합니다.</string>
+    <string name="email_pass_required">이메일과 비밀번호를 모두 입력해주세요.</string>
+    <string name="login_invalid">이메일 또는 비밀번호가 일치하지 않습니다.</string>
+    <string name="pass_too_short">비밀번호는 최소 8자 이상이어야 합니다.</string>
+    <string name="signup_complete">회원가입 완료! 소중한 프로필을 빌드해주세요.</string>
+    <string name="nickname_required">사용하실 닉네임을 입력해 주세요.</string>
+    <string name="saving_profile">프로필을 안전하게 생성하고 있습니다...</string>
+    <string name="profile_saved">프로필이 저장되었습니다. 환영합니다!</string>
+    <string name="logged_out">로그아웃 되었습니다.</string>
+    <string name="example_thought_inserted">예시 생각이 입력되었습니다.</string>
+    <string name="cognitive_journal_saved">마음 성찰을 보관소에 안전하게 저장했습니다.</string>
+    <string name="behavioral_journal_saved">마음챙김 행동 일지를 보관소에 소중히 완수했습니다.</string>
+    <string name="exposure_journal_saved">나의 빛나는 모습 찾기 성찰 일지를 보관소에 저장했습니다.</string>
+
+    <!-- InsightScreen -->
+    <string name="insight_today_report">오늘의 성장 리포트</string>
+    <string name="insight_today_actions_filled">오늘 실천한 행동들이 마음을 채웠어요 🫧</string>
+    <string name="insight_today_action">오늘의 행동</string>
+    <string name="insight_1_walk">산책 1회</string>
+    <string name="insight_1_reframe">생각 정리 1회</string>
+    <string name="insight_mood_boost">기분 개선</string>
+    <string name="insight_todays_moment">오늘의 평온한 순간</string>
+    <string name="insight_core_insight">오늘의 핵심 통찰</string>
+    <string name="insight_share_kakao">카카오톡으로 공유하기</string>
+    <string name="insight_download_img">이미지 다운로드</string>
+    <string name="insight_back_weekly">주간 성장 트렌드 리포트 목록으로 돌아가기</string>
+    <string name="insight_view_today">오늘의 성장 리포트 보기 (Bento)</string>
+    <string name="insight_ai_distortion">AI 인지 왜곡 누적 성향</string>
+    <string name="insight_new_journal">새로운 성찰 일지 쓰러 가기</string>
+    <string name="insight_mind_reading">#독심술 오류</string>
+    <string name="insight_catastrophizing">#파국화</string>
+
+    <!-- CategorySelectScreen -->
+    <string name="cat_title">실천할 작업 선택</string>
+    <string name="cat_subtitle">새로운 생각과 어울리는 행동을 하나 선택해보세요. 작은 변화가 큰 차이를 만듭니다.</string>
+    <string name="cat_step_label">어떤 방식으로 마음을 돌볼까요?</string>
+    <string name="cat_cognitive_title">인지적 작업</string>
+    <string name="cat_cognitive_desc">생각 바꾸기 연습</string>
+    <string name="cat_behavioral_title">행동적 작업</string>
+    <string name="cat_behavioral_recommended">추천</string>
+    <string name="cat_behavioral_desc">직접 움직이며 증명하기</string>
+    <string name="cat_exposure_title">나의 빛나는 모습 찾기</string>
+    <string name="cat_exposure_desc">내면의 긍정적 측면 바라보기</string>
+    <string name="cat_next_btn">다음 단계</string>
+
+    <!-- SocraticCheckScreen -->
+    <string name="sc_step_label">STEP 3 · 소크라테스 반론</string>
+    <string name="sc_title">생각 뒤의 진실 규명</string>
+    <string name="sc_subtitle">절대적이라 믿었던 무서운 생각의 명제가 어쩌면 상상의 빈 껍데기일 수 있습니다.</string>
+    <string name="sc_accept_btn">건강하며 자비로운 대안 사고 수용</string>
+
+    <!-- AlternativeReframeScreen -->
+    <string name="ar_step_label">STEP 4 · 성숙한 대안 사고</string>
+    <string name="ar_title">새롭고 유연해진 시야</string>
+    <string name="ar_subtitle">사실의 조각들을 침착하게 모아 만든 자비로운 마음의 전환 대들보입니다.</string>
+    <string name="ar_alternatives_title">🕊️ 당신을 감싸 안을 수렴적 대안 생각</string>
+    <string name="ar_accepted_link">내가 수용한 합리적 고리</string>
+    <string name="ar_save_btn">이 지혜를 보관함에 새겨놓기</string>
+
+    <!-- BehaviorRecommendScreen -->
+    <string name="br_step_label">STEP 3 · 행동 선택</string>
+    <string name="br_title">지금 몸을 깨우는 현존 처방</string>
+    <string name="br_subtitle">아래의 자율적 마음챙김 신체 미션 중 지금 발걸음할 수 있는 평화로운 목적지를 정해보세요.</string>
+    <string name="br_next_btn">선택한 야외 가이드 보기</string>
+
+    <!-- TimerActiveScreen -->
+    <string name="ta_step_label">STEP 5 · 마음 활성 보행 수행 중</string>
+    <string name="ta_subtitle">생각을 내려놓고 실시간 보행 궤적과 오감의 현존에 머무는 성찰 시간입니다.</string>
+    <string name="ta_walk_time">보행 시간</string>
+    <string name="ta_walk_distance">실제 보행거리</string>
+    <string name="ta_resume_btn">보행 재개</string>
+    <string name="ta_pause_btn">보행 일시정지</string>
+    <string name="ta_complete_btn">걷기 운동 완수 및 성찰하기</string>
+
+    <string name="insight_weekly_insights">주간 인사이트</string>
+    <string name="insight_based_on_journals">기록된 저널 %1$d개 기반 분석</string>
+    <string name="insight_no_journals">아직 기록이 없어요</string>
+    <string name="insight_complete_first">첫 번째 CBT 세션을 완료하면\n여기에 분석이 나타납니다.</string>
+    <string name="insight_start_session">세션 시작하기</string>
+    <string name="insight_total_records">총 기록</string>
+    <string name="insight_streak_format">%1$d일</string>
+    <string name="insight_cognitive">인지 작업</string>
+    <string name="insight_weekly_activity">주간 활동</string>
+    <string name="insight_sessions_this_week">이번 주 %1$d회 기록</string>
+    <string name="insight_today">오늘</string>
+    <string name="insight_top_distortions">주요 인지 왜곡</string>
+    <string name="insight_complete_more">더 많은 세션을 완료하면 패턴이 나타납니다.</string>
+    <string name="insight_session_types">세션 유형 분포</string>
+    <string name="insight_cognitive_restructuring">인지 재구조화</string>
+    <string name="insight_behavioral_activation">행동 활성화</string>
+    <string name="insight_exposure_therapy">노출 치료</string>
+    <string name="insight_recent_sessions">최근 세션</string>
+    <string name="exposure_ai_analyze_btn">AI 분석하기</string>
+    <string name="map_subtitle_format">%1$s (%2$s) 코스 기반 구글 맵 실시간 경로 안내입니다.</string>
+    <string name="generating_socratic_question">실시간 AI 반론 질문 생성 중...</string>
+    <string name="api_error">AI 분석에 실패하여 로컬 분석 결과를 사용합니다.</string>
+    <string name="nearby_refreshing">주변 추천 활동을 새로고침하는 중...</string>
+    <string name="nearby_updated">주변 추천 활동이 성공적으로 업데이트되었습니다.</string>
+    <string name="bottom_tab_home">홈</string>
+    <string name="bottom_tab_insight">통찰</string>
+    <string name="bottom_tab_profile">프로필</string>
+    <string name="weather_title">부산 날씨</string>
+    <string name="mood_detect_btn">감정 진단</string>
+    <string name="entry_detected_mood_format">감지된 감정: %1$s</string>
+    <string name="login_welcome">돌아온 것을 환영합니다</string>
+    <string name="login_google_btn">Google 계정으로 계속하기</string>
+    <string name="signup_title">안식처 가입하기</string>
+</resources>

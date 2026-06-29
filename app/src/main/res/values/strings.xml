@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">termproject</string>
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+    <string name="lang_ko">Korean</string>
+    <string name="lang_en">English</string>
+    <string name="settings_lang">Language Setting</string>
+    <string name="edit_profile">Edit Profile Info</string>
+    <string name="close">Close</string>
+
+    <!-- EntryScreen -->
+    <string name="entry_title">What negative thoughts are troubling you today?</string>
+    <string name="entry_subtitle">Write down the pessimistic or anxious thoughts circling your head. We will help analyze and find cognitive distortions.</string>
+    <string name="entry_placeholder">e.g., I ruined today\'s interview. I\'ll never get a job and will live miserably...</string>
+    <string name="entry_btn">Start AI Analysis</string>
+    <string name="entry_template_title">Stuck? Try one of these templates</string>
+    <string name="entry_template_1">No matter how hard I try, I always seem to fall behind others...</string>
+    <string name="entry_template_2">My friend is replying late. I must have done something wrong...</string>
+    <string name="entry_template_3">My appearance is so plain, everyone must be judging me silently...</string>
+    <string name="entry_hero_title">Pour out the heavy burdens\nof your mind today</string>
+    <string name="entry_hero_subtitle">A quiet sanctuary to freely record your inner anxiety, doubt, and self-criticism.</string>
+    <string name="entry_input_placeholder">e.g., Why isn\'t my friend replying.. They must have misunderstood or been disappointed by what I said.. I can\'t focus on anything all day.</string>
+    <string name="entry_template_hint">💡 Are you stuck in thoughts like these?</string>
+    <string name="entry_tpl_rel_title">Relationship Isolation</string>
+    <string name="entry_tpl_rel_body">Why hasn\'t the reply come for 3 hours? They must be ignoring me or wanting to break off the relationship.</string>
+    <string name="entry_tpl_ach_title">Achievement Anxiety</string>
+    <string name="entry_tpl_ach_body">This exam/interview is absolutely ruined because of my mistake. I am a misfit who will fail every single time.</string>
+    <string name="entry_tpl_pub_title">Public Speaking Tension</string>
+    <string name="entry_tpl_pub_body">I stumbled over my words in public and embarrassed myself. Everyone there must be marking me as pathetic and laughing.</string>
+
+    <!-- DistortionReviewScreen -->
+    <string name="dr_step_label">STEP 1 · Cognitive Diagnosis</string>
+    <string name="dr_title">Distortion Analysis Report</string>
+    <string name="dr_subtitle_a">AI has precisely detected hidden cognitive distortion patterns within your thoughts.</string>
+    <string name="dr_subtitle_b">Look into the root of distorted thinking and take the first step toward a healthier perspective.</string>
+    <string name="dr_original_thought">Original Thought Written</string>
+    <string name="dr_detected_filters">🔍 Detected Cognitive Filters</string>
+    <string name="dr_choose_path">Choose Next Step</string>
+
+    <!-- MapNavigationScreen -->
+    <string name="map_step_label">STEP 4 · Real-time Path Guide</string>
+    <string name="map_subtitle_a">Walk to the destination, connect with nature, and refresh your mind.</string>
+    <string name="map_subtitle_b">During your walk, look around slowly and focus on the present moment.</string>
+    <string name="map_permission_title">Location Permission Required</string>
+    <string name="map_permission_body">Location access is required to guide your walking route.\nPlease enable location permission in Settings.</string>
+    <string name="map_permission_btn">Grant Location Permission</string>
+    <string name="map_gps_searching">Searching for GPS signal...</string>
+    <string name="map_gps_hint">Moving outdoors or near a window helps detect faster.</string>
+    <string name="map_destination_prefix">Destination: </string>
+    <string name="map_guidelines_title">📜 Mindful Walking Guidelines</string>
+    <string name="map_start_btn">Start Walk to Destination</string>
+    <string name="map_start_cd">Start</string>
+
+    <!-- ReflectionCompleteScreen -->
+    <string name="rc_step_label">STEP 6 · Completion &amp; Reflection</string>
+    <string name="rc_subtitle_a">Praise yourself for actively moving and settling your mind. How are you feeling right now?</string>
+    <string name="rc_title">Fruits of Action Activation</string>
+    <string name="rc_subtitle_b">This small action will accelerate the recovery of your mind.</string>
+    <string name="rc_mission">Mission</string>
+    <string name="rc_walk_time">Walk Time</string>
+    <string name="rc_distance">Distance</string>
+    <string name="rc_mood_index">🌱 My Refreshed Mood Index</string>
+    <string name="rc_mood_question">How do you feel after the walk?</string>
+    <string name="rc_mood_placeholder">Freely record your inner voice in this moment...</string>
+    <string name="rc_save_btn">Save Reflection Journal &amp; Go Home</string>
+    <string name="rc_mood_refreshed">Refreshed</string>
+    <string name="rc_mood_calm">Calm</string>
+    <string name="rc_mood_relieved">Relieved</string>
+    <string name="rc_mood_neutral">Neutral</string>
+    <string name="rc_walk_note_title">✍️ Mindful Walking Reflection Note</string>
+    <string name="rc_walk_note_placeholder">What sounds, smells, or breezes did you notice while walking? Honestly write down how it felt to step away from negative thoughts.</string>
+    <string name="rc_save_complete_btn">Complete Reflection &amp; Save</string>
+
+    <!-- JournalDetailScreen -->
+    <string name="jd_title">Review Past Mind Journal</string>
+    <string name="jd_original_thought">Pessimistic Thought at the Time</string>
+    <string name="jd_cognitive_filter">Triggered Cognitive Distortion Filter</string>
+    <string name="jd_behavioral_complete">🐾 Completed Behavioral Prescription</string>
+    <string name="jd_mission">Mission</string>
+    <string name="jd_duration">Duration</string>
+    <string name="jd_walk_distance">Walk Distance</string>
+    <string name="jd_mood_after">Mood After Walk</string>
+    <string name="jd_walk_note">My Walking Reflection Note</string>
+    <string name="jd_positive_aspect">✨ Positive Aspect Discovered</string>
+    <string name="jd_ai_perspective">Warm Perspective Discovered by AI</string>
+    <string name="jd_reflection_content">My Reflection Content</string>
+    <string name="jd_socratic_question">💡 Socratic Question Met during Reflection</string>
+    <string name="jd_rational_wisdom">Rational Wisdom I Accepted</string>
+    <string name="jd_home_btn">Return to Main Home</string>
+
+    <!-- ProfileScreen -->
+    <string name="profile_behavioral_compliments_suffix"> compliments</string>
+    <string name="profile_streak">DAY STREAK</string>
+    <string name="profile_sessions">SESSIONS</string>
+    <string name="profile_recent_activity">Recent Activity</string>
+    <string name="profile_view_all">View All</string>
+    <string name="profile_show_less">Show Less</string>
+    <string name="profile_no_journals">No mind journals recorded yet.</string>
+    <string name="profile_cognitive_title">Cognitive Reframing</string>
+    <string name="profile_cognitive_sub">Thought: </string>
+    <string name="profile_behavioral_sub">Behavioral Activation • </string>
+    <string name="profile_exposure_title">Finding My Shining Moment</string>
+    <string name="profile_exposure_sub">Photo Reflection Complete • Compliments </string>
+    <string name="profile_email">Email Account</string>
+    <string name="profile_encryption">On-Device Safeguard</string>
+    <string name="profile_encryption_active">End-to-End Encrypted</string>
+    <string name="profile_edit_btn">Edit Profile Details</string>
+    <string name="profile_logout_btn">Sign Out Securely</string>
+
+    <!-- Map activity default names/purposes/instructions -->
+    <string name="act_forest_name">Green Forest Park Trail</string>
+    <string name="act_forest_purpose">Clear your mind while sensing the wind through trees and forest scent</string>
+    <string name="act_forest_duration">Approx. 15 mins</string>
+    <string name="act_forest_instruction">Focus your attention purely on the green leaves and the feel of the dirt trail touching your feet.</string>
+    <string name="act_sunlight_name">Sunny Photosynthesis Walkway</string>
+    <string name="act_sunlight_purpose">Boost serotonin and dissolve emotional lethargy and fatigue</string>
+    <string name="act_sunlight_duration">Approx. 20 mins</string>
+    <string name="act_sunlight_instruction">Feel the warm temperature of the sunlight on your skin, broaden your shoulders, and walk at a steady pace.</string>
+    <string name="act_stream_name">Calm Emerald Brook Trail</string>
+    <string name="act_stream_purpose">Wash away lingering depression using the calm white noise of the flowing stream</string>
+    <string name="act_stream_duration">Approx. 25 mins</string>
+    <string name="act_stream_instruction">Relax and synchronize your inhalations and exhalations with the natural sound and rhythm of the flowing stream.</string>
+
+    <!-- ExposureScreen -->
+    <string name="exposure_title">Finding My Shining Moment</string>
+    <string name="exposure_subtitle">When negative thoughts about your appearance arise, practice loving yourself just as you are.</string>
+    <string name="exposure_upload_title">Capture your look today</string>
+    <string name="exposure_change_photo">Change Photo</string>
+    <string name="exposure_ai_title">AI\'s Warm Perspective</string>
+    <string name="exposure_ai_desc">AI discovered a positive light in your appearance.</string>
+    <string name="exposure_compliment_1">Sparkling Eyes</string>
+    <string name="exposure_compliment_2">Warm Smile</string>
+    <string name="exposure_compliment_3">Healthy Energy</string>
+    <string name="exposure_compliment_4">Soft Facial Line</string>
+    <string name="exposure_compliment_5">Positive Vibe</string>
+    <string name="exposure_input_label">What is one thing you like about your appearance today?</string>
+    <string name="exposure_input_placeholder">e.g., I like the warm crinkles around my eyes when I laugh...</string>
+    <string name="exposure_save_btn">Save and Care for Mind</string>
+    <string name="exposure_footer">Remember yourself in this moment. Outer beauty begins with inner peace.</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle">A peaceful and quiet sanctuary for your mind</string>
+
+    <!-- LoginScreen -->
+    <string name="login_subtitle">Your own room where rest and deep reflection await.\nLet your thoughts flow and recover once again.</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="login_btn">Enter Sanctuary (Login)</string>
+    <string name="social_login">Or Social Login</string>
+    <string name="no_account">Don\'t have an account yet?</string>
+    <string name="signup_link">Sign Up</string>
+
+    <!-- SignUpScreen -->
+    <string name="back_to_login">Back to Login</string>
+    <string name="signup_subtitle">A private, quiet space to lay down worries and grow safely.\nStart your journey to find yourself now.</string>
+    <string name="password_placeholder_signup">Password (8+ characters)</string>
+    <string name="signup_security_note">Your thoughts and journals are strictly encrypted with military-grade security and safely protected only inside your personal device.</string>
+    <string name="signup_btn">Complete Sign Up</string>
+
+    <!-- ProfileSetupScreen -->
+    <string name="profile_setup_title">Fill in your nickname and job title\nto display in your mindfulness sanctuary.</string>
+    <string name="profile_avatar_label">Register Profile Photo</string>
+    <string name="profile_nickname_label">Nickname to use</string>
+    <string name="profile_job_label">Job Title or Hobby</string>
+    <string name="profile_save_btn">Save and Get Started</string>
+    <string name="profile_building">Building profile sanctuary...</string>
+    <string name="profile_build_success">Your precious space is ready.\nNavigating to the main dashboard now.</string>
+
+    <!-- Dialogs in MainActivity -->
+    <string name="guide_title">CBT Cognitive Behavioral Therapy Guide</string>
+    <string name="guide_intro">This CBT Sanctuary is a sophisticated system designed to deconstruct and align mental discomfort.</string>
+    <string name="guide_body">"• Cognitive Path (Path A): Logically examine distorted thoughts through Socratic questioning and generate wise, peaceful alternative thoughts to save.\n\n• Behavioral Path (Path B): Step out of the cognitive prison completely by executing natural walk missions to directly activate your mood."</string>
+    <string name="guide_close">Close Guide</string>
+
+    <!-- Toast/Snackbar Messages -->
+    <string name="welcome_back">Welcome back to the Sanctuary.</string>
+    <string name="email_pass_required">Please enter both email and password.</string>
+    <string name="login_invalid">Invalid email or password.</string>
+    <string name="pass_too_short">Password must be at least 8 characters long.</string>
+    <string name="signup_complete">Sign up complete! Please set up your profile.</string>
+    <string name="nickname_required">Please enter your nickname.</string>
+    <string name="saving_profile">Creating your profile securely...</string>
+    <string name="profile_saved">Profile saved. Welcome!</string>
+    <string name="logged_out">Logged out.</string>
+    <string name="example_thought_inserted">Example thought inserted.</string>
+    <string name="cognitive_journal_saved">Mind reflection saved securely.</string>
+    <string name="behavioral_journal_saved">Mindfulness behavior journal completed successfully.</string>
+    <string name="exposure_journal_saved">Self-exposure reflection journal saved successfully.</string>
+
+    <!-- InsightScreen -->
+    <string name="insight_today_report">Today\'s Growth Report</string>
+    <string name="insight_today_actions_filled">Today\'s actions have filled your mind 🫧</string>
+    <string name="insight_today_action">Today\'s Action</string>
+    <string name="insight_1_walk">1 Walk</string>
+    <string name="insight_1_reframe">1 Reframe</string>
+    <string name="insight_mood_boost">Mood Boost</string>
+    <string name="insight_todays_moment">Today\'s Peaceful Moment</string>
+    <string name="insight_core_insight">Today\'s Core Insight</string>
+    <string name="insight_share_kakao">Share via KakaoTalk</string>
+    <string name="insight_download_img">Download Image</string>
+    <string name="insight_back_weekly">Back to Weekly Trends List</string>
+    <string name="insight_view_today">View Today\'s Growth Report (Bento)</string>
+    <string name="insight_ai_distortion">AI Cognitive Distortion Accumulation</string>
+    <string name="insight_new_journal">Go Write a New Journal</string>
+    <string name="insight_mind_reading">#Mind Reading</string>
+    <string name="insight_catastrophizing">#Catastrophizing</string>
+
+    <!-- CategorySelectScreen -->
+    <string name="cat_title">Choose Action to Practice</string>
+    <string name="cat_subtitle">Try choosing an action that matches your new thought. Small changes make a big difference.</string>
+    <string name="cat_step_label">How would you like to care for your mind?</string>
+    <string name="cat_cognitive_title">Cognitive Action</string>
+    <string name="cat_cognitive_desc">Thought Reframing Practice</string>
+    <string name="cat_behavioral_title">Behavioral Action</string>
+    <string name="cat_behavioral_recommended">Recommended</string>
+    <string name="cat_behavioral_desc">Actively testing and proving</string>
+    <string name="cat_exposure_title">Finding My Shining Moment</string>
+    <string name="cat_exposure_desc">Looking at positive aspects of myself</string>
+    <string name="cat_next_btn">Next Step</string>
+
+    <!-- SocraticCheckScreen -->
+    <string name="sc_step_label">STEP 3 · Socratic Questioning</string>
+    <string name="sc_title">Examining the Truth</string>
+    <string name="sc_subtitle">The absolute, scary thoughts we believed might just be empty shells of imagination.</string>
+    <string name="sc_accept_btn">Accept Compassionate Alternative Thought</string>
+
+    <!-- AlternativeReframeScreen -->
+    <string name="ar_step_label">STEP 4 · Compassionate Reframing</string>
+    <string name="ar_title">A Flexible Perspective</string>
+    <string name="ar_subtitle">A compassionate mind-shifting pillar built by calmly collecting pieces of fact.</string>
+    <string name="ar_alternatives_title">🕊️ Compassionate Alternative Thoughts to Support You</string>
+    <string name="ar_accepted_link">The Rational Connection I Accepted</string>
+    <string name="ar_save_btn">Save this Wisdom to Sanctuary</string>
+
+    <!-- BehaviorRecommendScreen -->
+    <string name="br_step_label">STEP 3 · Choose Action</string>
+    <string name="br_title">Prescription to Awaken the Body</string>
+    <string name="br_subtitle">Choose a peaceful destination where you can take your steps today from the mindfulness missions below.</string>
+    <string name="br_next_btn">View Selected Outdoor Guide</string>
+
+    <!-- TimerActiveScreen -->
+    <string name="ta_step_label">STEP 5 · Mindful Walking in Progress</string>
+    <string name="ta_subtitle">A time of reflection to let go of thoughts and dwell on the live walking trajectory and presence of five senses.</string>
+    <string name="ta_walk_time">Walk Time</string>
+    <string name="ta_walk_distance">Walk Distance</string>
+    <string name="ta_resume_btn">Resume Walk</string>
+    <string name="ta_pause_btn">Pause Walk</string>
+    <string name="ta_complete_btn">Complete Walk &amp; Reflect</string>
+
+    <string name="insight_weekly_insights">Weekly Insights</string>
+    <string name="insight_based_on_journals">Based on your %1$d recorded journals</string>
+    <string name="insight_no_journals">No journals yet</string>
+    <string name="insight_complete_first">Complete your first CBT session to see your insights here.</string>
+    <string name="insight_start_session">Start a session</string>
+    <string name="insight_total_records">Total</string>
+    <string name="insight_streak_format">%1$d days</string>
+    <string name="insight_cognitive">Cognitive</string>
+    <string name="insight_weekly_activity">Weekly Activity</string>
+    <string name="insight_sessions_this_week">%1$d sessions this week</string>
+    <string name="insight_today">Today</string>
+    <string name="insight_top_distortions">Top Cognitive Distortions</string>
+    <string name="insight_complete_more">Complete more sessions to see patterns.</string>
+    <string name="insight_session_types">Session Types</string>
+    <string name="insight_cognitive_restructuring">Cognitive Restructuring</string>
+    <string name="insight_behavioral_activation">Behavioral Activation</string>
+    <string name="insight_exposure_therapy">Exposure Therapy</string>
+    <string name="insight_recent_sessions">Recent Sessions</string>
+    <string name="exposure_ai_analyze_btn">Run AI Analysis</string>
+    <string name="map_subtitle_format">Live Google Maps guide based on the %1$s (%2$s) course.</string>
+    <string name="generating_socratic_question">Generating tailored Socratic question...</string>
+    <string name="api_error">Failed to connect to AI. Using local analysis data instead.</string>
+    <string name="nearby_refreshing">Refreshing nearby activities...</string>
+    <string name="nearby_updated">Nearby activities updated successfully.</string>
+    <string name="bottom_tab_home">Home</string>
+    <string name="bottom_tab_insight">Insight</string>
+    <string name="bottom_tab_profile">Profile</string>
+    <string name="weather_title">Busan Weather</string>
+    <string name="mood_detect_btn">Mood</string>
+    <string name="entry_detected_mood_format">Detected Mood: %1$s</string>
+    <string name="login_welcome">Welcome Back</string>
+    <string name="login_google_btn">Continue with Google</string>
+    <string name="signup_title">Join the Sanctuary</string>
+</resources>
